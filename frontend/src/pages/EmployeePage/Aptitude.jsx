@@ -35,7 +35,7 @@ const Aptitude = () => {
       description:
         "Get personalized career path recommendations based on your skills.",
       icon: <Compass className="h-12 w-12 text-orange-600" />,
-      path: "/pathbuilder", // New route for path builder
+      path: "/careerrec", // New route for path builder
     },
     {
       id: "support-helper",
