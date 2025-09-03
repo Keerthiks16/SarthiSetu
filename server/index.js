@@ -17,6 +17,7 @@ app.use(
       "http://localhost:19006", // Expo web alternative port
       "http://192.168.1.100:8081", // Replace with your local IP if needed
       "http://localhost:5173",
+      "https://nfc-4-the-codefather.vercel.app",
     ],
     credentials: true, // Important for cookies
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
