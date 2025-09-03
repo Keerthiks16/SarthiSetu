@@ -1,5 +1,7 @@
 import { create } from "zustand";
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE + "/api/auth";
+
 const useAuthStore = create((set, get) => ({
   user: null,
   isLoading: false,
@@ -9,7 +11,7 @@ const useAuthStore = create((set, get) => ({
   signup: async (userData) => {
     set({ isLoading: true });
     try {
-      const response = await fetch("/api/auth/signup", {
+      const response = await fetch(`${API_BASE_URL}/signup`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -37,7 +39,7 @@ const useAuthStore = create((set, get) => ({
   login: async (credentials) => {
     set({ isLoading: true });
     try {
-      const response = await fetch("/api/auth/login", {
+      const response = await fetch(`${API_BASE_URL}/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -64,7 +66,7 @@ const useAuthStore = create((set, get) => ({
   // Logout function
   logout: async () => {
     try {
-      await fetch("/api/auth/logout", {
+      await fetch(`${API_BASE_URL}/logout`, {
         method: "POST",
         credentials: "include",
       });
@@ -80,7 +82,7 @@ const useAuthStore = create((set, get) => ({
   checkAuth: async () => {
     set({ isCheckingAuth: true });
     try {
-      const response = await fetch("/api/auth/me", {
+      const response = await fetch(`${API_BASE_URL}/me`, {
         credentials: "include",
       });
 

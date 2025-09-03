@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-const API_BASE_URL = "http://localhost:5001/api/job";
+const API_BASE_URL = import.meta.env.VITE_API_BASE + "/api/job";
 
 // Helper function to make authenticated requests
 const makeRequest = async (url, options = {}) => {
