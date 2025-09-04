@@ -19,6 +19,7 @@ app.use(
       "http://localhost:5173",
       "https://nfc-4-the-codefather.vercel.app",
       "https://sarthisetuu.vercel.app",
+      "https://sarthisetu.vercel.app",
     ],
     credentials: true, // Important for cookies
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
