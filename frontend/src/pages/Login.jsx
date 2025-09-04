@@ -267,7 +267,7 @@ const Login = () => {
               </div>
               <div className="relative flex justify-center text-sm">
                 <span className="px-2 bg-white text-gray-500">
-                  New to StayFinder?
+                  New to SarthiSetu?
                 </span>
               </div>
             </div>

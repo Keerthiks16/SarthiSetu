@@ -51,7 +51,7 @@ const RecNav = () => {
               onClick={() => handleNavigation("/recruiter-home")}
               className="text-2xl font-bold text-indigo-400 hover:text-indigo-300 transition-colors duration-200"
             >
-              NFC
+              SarthiSetu
             </button>
           </div>
 

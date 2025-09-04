@@ -37,7 +37,7 @@ const EmpNav = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo Section */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-indigo-400">NFC</h1>
+            <h1 className="text-2xl font-bold text-indigo-400">SarthiSetu</h1>
           </div>
 
           {/* Navigation Links */}
