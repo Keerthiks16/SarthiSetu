@@ -55,7 +55,7 @@ const JobApplications = () => {
     setLoading(true);
     try {
       const response = await axios.get(
-        `http://localhost:5001/api/job/${jobId}/applications`,
+        `https://nfc4-the-codefather-1.onrender.com/api/job/${jobId}/applications`,
         { withCredentials: true }
       );
       if (response.data.success) {
@@ -81,7 +81,7 @@ const JobApplications = () => {
     setUpdatingStatusId(applicantId);
     try {
       await axios.patch(
-        `http://localhost:5001/api/job/${jobId}/applications/${applicantId}/status`,
+        `https://nfc4-the-codefather-1.onrender.com/api/job/${jobId}/applications/${applicantId}/status`,
         { status: newStatus },
         { withCredentials: true }
       );

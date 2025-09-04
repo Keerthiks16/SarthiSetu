@@ -18,7 +18,7 @@ const RecHome = () => {
       setLoading(true);
       try {
         const response = await axios.get(
-          "http://localhost:5001/api/job/recruiter/my-jobs",
+          "https://nfc4-the-codefather-1.onrender.com/api/job/recruiter/my-jobs",
           { withCredentials: true }
         );
         if (response.data.success) {

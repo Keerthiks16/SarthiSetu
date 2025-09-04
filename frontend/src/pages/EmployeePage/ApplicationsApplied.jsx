@@ -23,7 +23,7 @@ const ApplicationsApplied = () => {
       const promises = user.jobsApplied.map(async (app) => {
         try {
           const response = await fetch(
-            `http://localhost:5001/api/job/${app.jobId}`
+            `https://nfc4-the-codefather-1.onrender.com/api/job/${app.jobId}`
           );
           if (response.ok) {
             const data = await response.json();

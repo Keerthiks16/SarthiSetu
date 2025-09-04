@@ -16,7 +16,9 @@ const JobDetails = () => {
   useEffect(() => {
     const fetchJobDetails = async () => {
       try {
-        const response = await axios.get(`http://localhost:5001/api/job/${id}`);
+        const response = await axios.get(
+          `https://nfc4-the-codefather-1.onrender.com/api/job/${id}`
+        );
         setJob(response.data.data);
         setLoading(false);
       } catch (err) {
@@ -36,7 +38,7 @@ const JobDetails = () => {
     try {
       // Assuming you have authentication and can get the user ID
       const response = await axios.post(
-        `http://localhost:5001/api/job/${id}/apply`,
+        `https://nfc4-the-codefather-1.onrender.com/api/job/${id}/apply`,
         {},
         {
           headers: {
