@@ -1,6 +1,6 @@
 # SarthiSetu - AI-Powered Career and Recruitment Platform
 
-**NFC: The Codefather** is a comprehensive, multi-user platform designed to bridge the gap between job seekers, recruiters, and mentors. Leveraging the power of AI, this application provides a rich set of tools to facilitate career growth, streamline the hiring process, and foster mentorship connections. The platform features distinct, role-based dashboards for Employees, Recruiters, and Mentors, ensuring a tailored experience for each user group.
+**SarthiSetu** is a comprehensive, multi-user platform designed to bridge the gap between job seekers, recruiters, and mentors. Leveraging the power of AI, this application provides a rich set of tools to facilitate career growth, streamline the hiring process, and foster mentorship connections. The platform features distinct, role-based dashboards for Employees, Recruiters, and Mentors, ensuring a tailored experience for each user group.
 
 -----
 
